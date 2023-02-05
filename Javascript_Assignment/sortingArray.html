@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort  the elements in an Array</title>
+</head>
+<body style="background-color: blue;">
+    <h1 style="text-align: center;color:white">Sorting Of An Array</h1>
+    <p id="sortAnArray" style="font-size: 180px; text-align: center;color:red; word-wrap: break-word;"></p>
+    <script>
+        let sortingAnArray = [500, 5, 3, 4, 56, 100, 23, 6, 78, 60];
+        
+        let sortedArray = sortingAnArray.sort((a, b) => a - b);
+    
+        document.getElementById("sortAnArray").innerHTML = sortedArray;
+    </script>
+</body>
+</html>
